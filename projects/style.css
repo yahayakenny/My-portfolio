@@ -74,6 +74,7 @@ body {
   font-family: 'poppins';
   font-size: 27px;
 }
+
 .project-text h6 {
   font-family: 'raleway';
   font-size: 22px;
@@ -105,11 +106,14 @@ body {
   padding-bottom: 200px;
 }
 
-
 .project-text  {
   margin-top: 80px;
 }
 
+.neon {
+  margin-top: -15px;
+
+}
 @media (max-width: 767px) {
   .row-flex {
     display: flex;
@@ -157,7 +161,7 @@ body {
     justify-content: center;
     height: 40vh;
     width: 100%;
-    margin-bottom: -90px !important;
+    margin-bottom: -70px !important;
   }
 
   

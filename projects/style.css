@@ -28,7 +28,6 @@ body {
 }
 
 .detail-items a{
-
   margin-top: 80px;
   color: teal;
   
@@ -70,6 +69,7 @@ body {
   margin-bottom: 30px;
   color: teal;
 }
+
 .project-text h5 {
   font-family: 'poppins';
   font-size: 27px;

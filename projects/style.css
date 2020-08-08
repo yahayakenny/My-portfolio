@@ -2,15 +2,13 @@ html,
 body {
   position: relative;
   overflow-x: hidden;
-  /* height: 100%;
-  width: 100%; */
 }
 
 .navbar {
   color: white !important;
   background-color: teal;
   padding: 0px 14px !important;
-  margin-bottom: 50px !important;
+  /* margin-bottom: 20px !important; */
 }
 
 .navbar-brand {
@@ -43,10 +41,6 @@ body {
   justify-content: space-between;
 }
 
-.padding {
-  margin: 150px 0px;
-}
-
 .project-text {
   display: flex;
   flex-direction: column;
@@ -58,8 +52,12 @@ body {
 .project {
   padding: 0px 50px;
   padding-bottom: 90px;
-  margin-top: 100px !important;
   padding-left: 130px;
+}
+
+.neon {
+  padding-left: 130px;
+
 }
 
 .project-text h1 {
@@ -98,38 +96,37 @@ body {
     display: flex;
    
 }
+
 .links a {
-    padding: 10px !important;
+  padding: 10px !important;
 }
 
-.project-text a {
-  padding-bottom: 200px;
-}
 
-.project-text  {
-  margin-top: 80px;
-}
 
-.neon {
-  margin-top: -15px;
-
-}
-@media (max-width: 767px) {
+@media (max-width: 800px) {
   .row-flex {
     display: flex;
     flex-direction: column;
   }
 
-
   .project-img img {
+
     width: 100%;
     margin: 0 auto;
   }
 
   .project {
     padding: 0px 10px;
-    padding-bottom: 10px;
+    
    
+  }
+  .neon {
+    padding: 0px 10px;
+    
+   
+  }
+  .project-text {
+    width: 100%;
   }
 
   .project-text h1 {
@@ -150,20 +147,5 @@ body {
     font-size: 15px;
   }
 
-  .project-text a {
-    font-size: 30px;
-    color: teal;
-  }
-
-  .project-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 40vh;
-    width: 100%;
-    margin-bottom: -70px !important;
-  }
-
-  
-  
 }
+

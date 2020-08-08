@@ -108,6 +108,7 @@ body {
     display: flex;
     flex-direction: column;
   }
+ 
 
   .project-img img {
 
@@ -123,8 +124,8 @@ body {
   .neon {
     padding: 0px 10px;
     
-   
   }
+  
   .project-text {
     width: 100%;
   }

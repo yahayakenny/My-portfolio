@@ -126,12 +126,11 @@ html, body {
 
 }
 .details a {
-    font-size: 'nunito sans';
+    font-family: 'nunito sans';
+    font-size: 17px;
 }
 
-.details {
-    font-size: 15px;
-}
+
 
 .hero-text{
     font-family: 'nunito sans';

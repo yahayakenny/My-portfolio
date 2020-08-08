@@ -43,12 +43,12 @@ body {
 
 .project-text {
  width: 500px;
- padding-top: 180px;
+ padding-top: 100px;
   
 }
 
 .project {
-  
+  padding-bottom: 50px;
   padding-left: 130px;
 }
 
@@ -59,20 +59,20 @@ body {
 
 .project-text h1 {
   font-family: 'poppins';
-  font-size: 35px;
+  font-size: 30px;
   font-weight: bolder;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   color: teal;
 }
 
 .project-text h5 {
   font-family: 'poppins';
-  font-size: 27px;
+  font-size: 22px;
 }
 
 .project-text h6 {
   font-family: 'raleway';
-  font-size: 22px;
+  font-size: 17px;
 }
 
 .project-img img {

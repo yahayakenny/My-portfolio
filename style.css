@@ -25,12 +25,13 @@ html, body {
     font-weight: bold;
 }
 
-.hero-img{
-    width: 80%;
+
+.hero-img img{
+    width: 120%;
 }
 
 .padding {
-    padding: 50px 12px;
+    padding: 80px 50px;
 
 }
 
@@ -40,7 +41,9 @@ html, body {
 }
 
 .hero-text{
-    font-family: 'nunito sans'
+    font-family: 'nunito sans';
+    width: 60%;
+   
 }
 
 .hero-text h1{
@@ -48,9 +51,10 @@ html, body {
     font-size: 60px;
 
 }
+
 .hero-text h2{
     font-weight: bold;
-    font-size: 80px;
+    font-size: 90px;
     color:  #077c7d
 
 }
@@ -59,11 +63,12 @@ html, body {
     font-weight: light;
     font-size: 40px;
     font-family: 'raleway';
+    line-height: 50px;
 
 }
 
 .detail-items {
-    margin-top: 80px;
+    margin-top: 30px;
 
 }
 
@@ -102,7 +107,6 @@ html, body {
 
 }
 
-}
 
 .hero-text h2{
     font-weight: bold;
@@ -128,8 +132,45 @@ html, body {
 .details {
     font-size: 15px;
 }
-    
+
+.hero-text{
+    font-family: 'nunito sans';
+    width: 100%;
+   
 }
+    
+
+}
+/* 
+@media(min-width: 768px ){
+    .hero-text{
+        font-family: 'nunito sans';
+        width: 100%;
+       
+    }
+    .hero-text h5{
+        font-weight: light;
+        font-size: 20px;
+        font-family: 'raleway';
+        line-height: 50px;
+    
+    }
+} */
+
+/* @media(min-width:1024px ){
+    .hero-text{
+        font-family: 'nunito sans';
+        width: 100%;
+       
+    }
+    .hero-text h5{
+        font-weight: light;
+        font-size: 20px;
+        font-family: 'raleway';
+        line-height: 50px;
+    
+    }
+} */
 
 
 

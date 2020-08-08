@@ -10,6 +10,7 @@ body {
   color: white !important;
   background-color: teal;
   padding: 0px 14px !important;
+  margin-bottom: 50px !important;
 }
 
 .navbar-brand {
@@ -57,8 +58,8 @@ body {
 
 .project {
   padding: 0px 50px;
-  padding-bottom: 30px;
-  padding-top: 50px !important;
+  padding-bottom: 90px;
+  margin-top: 100px !important;
   padding-left: 130px;
 }
 
@@ -98,6 +99,15 @@ body {
 }
 .links a {
     padding: 10px !important;
+}
+
+.project-text a {
+  padding-bottom: 200px;
+}
+
+
+.project-text  {
+  margin-top: 80px;
 }
 
 @media (max-width: 767px) {
@@ -147,14 +157,9 @@ body {
     justify-content: center;
     height: 40vh;
     width: 100%;
+    margin-bottom: -90px !important;
   }
+
   
-  .fart {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 50vh;
-    width: 100%;
-  }
   
 }

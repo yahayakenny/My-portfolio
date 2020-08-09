@@ -63,8 +63,9 @@ body {
 }
 
 .tech-stack h3 {
-  font-family: 'poppins';
-  font-size: 30px;
+  font-family: 'raleway';
+  font-size: 28px;
+  color: #077c7d;
 }
 
 .card-bottom h6 {

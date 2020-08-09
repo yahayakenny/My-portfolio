@@ -7,15 +7,16 @@ body {
 .navbar {
   color: white !important;
   background-color: teal;
-  padding: 0px 18px !important;
+ 
   
 }
 
 .navbar-brand {
   color: white !important;
-  font-size: 20px !important;
+  font-size: 15px !important;
   font-family: 'Raleway';
   font-weight: bolder;
+  padding-left: 80px;
 }
 
 .navbar li a {
@@ -42,14 +43,14 @@ body {
 }
 
 .project-text {
- width: 500px;
+ width: 100%;
  padding-top: 100px;
   
 }
 
 .project {
   padding-bottom: 50px;
-  padding-left: 130px;
+  padding-left: 80px;
 }
 
 .neon {
@@ -105,6 +106,14 @@ body {
   .row-flex {
     display: flex;
     flex-direction: column;
+  }
+
+  .navbar-brand {
+    color: white !important;
+    font-size: 13px !important;
+    font-family: 'Raleway';
+    font-weight: bolder;
+    padding-left: 5px;
   }
  
 

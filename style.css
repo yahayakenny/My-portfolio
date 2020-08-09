@@ -7,27 +7,27 @@ html, body {
 
 .navbar {
   color: white !important;
-  padding: 15px 40px;
+  padding: 15px 20px;
   background-color: teal !important;
 }
 
 .navbar-brand {
     color:  whitesmoke !important;
     font-size: 20px !important;  
-    font-family: 'nunito sans';
+    font-family: 'raleway';
     font-weight: bolder;
 }
 
 .navbar li a {
     color: white !important;
     font-size: 22px !important;
-    font-family: 'poppins';
+    font-family: 'raleway';
     font-weight: bold;
 }
 
 
 .hero-img img{
-    width: 120%;
+    width: 100%;
 }
 
 .padding {
@@ -69,6 +69,7 @@ html, body {
 
 .detail-items {
     margin-top: 10px;
+    padding-bottom: 35px;
 
 }
 
@@ -92,7 +93,7 @@ html, body {
     }
 
     .hero-img img {
-        width: 130%;
+        width: 100%;
         margin-bottom: 40px;
       
     }
@@ -122,9 +123,11 @@ html, body {
 }
 
 .detail-items {
-    margin-top: 0px;
+    margin-top: 20px;
+    padding-bottom: 35px;
 
 }
+
 .details a {
     font-family: 'nunito sans';
     font-size: 17px;
@@ -136,6 +139,14 @@ html, body {
     font-family: 'nunito sans';
     width: 100%;
    
+}
+
+.hero-text h5{
+    font-weight: light;
+    font-size: 20px;
+    font-family: 'raleway';
+    line-height: 28px;
+
 }
     
 

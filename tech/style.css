@@ -1,0 +1,98 @@
+html,
+body {
+  position: relative;
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+.navbar {
+  color: white !important;
+  padding: 15px 18px;
+  background-color: teal !important;
+}
+
+.navbar-brand {
+  color: whitesmoke !important;
+  font-size: 20px !important;
+  font-family: 'raleway';
+  font-weight: bolder;
+}
+
+.navbar li a {
+  color: white !important;
+  font-size: 22px !important;
+  font-family: 'raleway';
+  font-weight: bold;
+}
+
+.detail-items {
+  margin-top: 10px;
+  padding-bottom: 35px;
+}
+
+.details {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.details a {
+  color: #077c7d;
+  text-decoration: none;
+  font-family: 'poppins';
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.stack img {
+  width: 50%;
+}
+
+.card-bottom {
+  width: 15rem;
+  height: 12rem;
+  margin-bottom: 25px;
+  border-radius: 8px;
+  box-shadow: 1px 2px 4px rgba(25, 61, 115, 0.1);
+  background: #f2f4f7;
+}
+
+.stack {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.tech-stack h3 {
+  font-family: 'poppins';
+  font-size: 30px;
+}
+
+.card-bottom h6 {
+  font-size: 20px;
+  font-weight: bold;
+  color: teal;
+}
+
+.card-img-top {
+  height: 20rem;
+  margin: 0 auto !important;
+  width: 80%;
+  padding-top: 20px;
+  border-radius: 18px;
+}
+
+.card-body {
+  margin: 0 auto !important;
+  width: 80%;
+}
+
+@media (max-width: 767px) {
+  .tech-stack .card {
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .card-bottom {
+    margin-bottom: 25px !important;
+  }
+}

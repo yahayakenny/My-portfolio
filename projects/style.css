@@ -6,8 +6,7 @@ body {
 
 .navbar {
   color: white !important;
-  background-color: #1d1d1d
-  
+  background-color: #1d1d1d;
 }
 
 .navbar-brand {
@@ -25,10 +24,10 @@ body {
   font-weight: bold;
 }
 
-.detail-items a{
+.detail-items a {
   margin-top: 80px;
   color: teal;
-  
+  font-size: 22px;
 }
 
 .details {
@@ -42,9 +41,8 @@ body {
 }
 
 .project-text {
- width: 100%;
- padding-top: 100px;
-  
+  width: 100%;
+  padding-top: 100px;
 }
 
 .project {
@@ -54,7 +52,6 @@ body {
 
 .neon {
   padding-left: 130px;
-
 }
 
 .project-text h1 {
@@ -85,21 +82,17 @@ body {
 }
 
 .dark {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
 }
 
 .links {
-    display: flex;
-   
+  display: flex;
 }
 
 .links a {
   padding: 10px !important;
 }
-
-
-
 
 @media (max-width: 800px) {
   .row-flex {
@@ -114,22 +107,17 @@ body {
     font-weight: bolder;
     padding-left: 5px;
   }
- 
 
   .project-img img {
-
     width: 100%;
     margin: 0 auto;
   }
 
   .project {
     padding: 0px 10px;
-    
-   
   }
   .neon {
     padding: 0px 10px;
-    
   }
 
   .project-text {
@@ -154,6 +142,4 @@ body {
     font-family: 'raleway';
     font-size: 15px;
   }
-
 }
-

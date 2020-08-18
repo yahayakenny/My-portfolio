@@ -1,10 +1,11 @@
-html, body {
-    position: relative;
-    overflow-x: hidden;
-    height: 100%;
-    width: 100%;
-    background-color: #1d1d1d;
-    color: white;
+html,
+body {
+  position: relative;
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+  background-color: #1d1d1d;
+  color: white;
 }
 
 .navbar {
@@ -14,144 +15,127 @@ html, body {
 }
 
 .navbar-brand {
-    color:  whitesmoke !important;
-    font-size: 20px !important;  
-    font-family: 'raleway';
-    font-weight: bolder;
+  color: whitesmoke !important;
+  font-size: 20px !important;
+  font-family: 'raleway';
+  font-weight: bolder;
 }
 
 .navbar li a {
-    color: white !important;
-    font-size: 22px !important;
-    font-family: 'raleway';
-    font-weight: bold;
+  color: white !important;
+  font-size: 22px !important;
+  font-family: 'raleway';
+  font-weight: bold;
 }
 
-
-.hero-img img{
-    width: 100%;
+.hero-img img {
+  width: 100%;
 }
 
 .padding {
-    padding: 80px 50px;
-
+  padding: 80px 50px;
 }
 
-.row-flex{
-    display: flex;
-    justify-content: space-between;
+.row-flex {
+  display: flex;
+  justify-content: space-between;
 }
 
-.hero-text{
-    font-family: 'nunito sans';
-    width: 60%;
-   
+.hero-text {
+  font-family: 'nunito sans';
+  width: 100%;
 }
 
-.hero-text h1{
-    font-weight: bolder;
-    font-size: 60px;
-
+.hero-text h1 {
+  font-weight: bolder;
+  font-size: 60px;
 }
 
-.hero-text h2{
-    font-weight: bold;
-    font-size: 80px;
-    color:  #077c7d
-
+.hero-text h2 {
+  font-weight: bold;
+  font-size: 80px;
+  color: #077c7d;
 }
 
-.hero-text h5{
-    font-weight: light;
-    font-size: 23px;
-    font-family: 'raleway';
-    line-height: 40px;
-
+.hero-text h5 {
+  font-weight: light;
+  font-size: 23px;
+  font-family: 'raleway';
+  line-height: 40px;
 }
 
 .detail-items {
-    margin-top: 10px;
-    padding-bottom: 35px;
-
+  margin-top: 100px;
 }
 
 .details {
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .details a {
-    color:  #077c7d;
-    text-decoration: none;
-    font-family: 'poppins';
-    font-weight: bold;
-    font-size: 22px;
+  color: #077c7d;
+  text-decoration: none;
+  font-family: 'poppins';
+  font-weight: bold;
+  font-size: 22px;
 }
 
-@media(max-width: 767px){
-    .row-flex {
-        display: flex;
-        flex-direction: column;
-    }
+.btn-info {
+  margin-right: 20px;
+}
+@media (max-width: 767px) {
+  .row-flex {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .hero-img img {
-        width: 100%;
-        margin-bottom: 40px;
-      
-    }
+  .hero-img img {
+    width: 100%;
+    margin-bottom: 40px;
+  }
 
-
-.hero-text h1{
+  .hero-text h1 {
     font-weight: bolder;
-    font-size: 30px;}
+    font-size: 30px;
+  }
 
-    .padding {
+  .padding {
     padding: 50px 20px;
+  }
 
-}
-
-
-.hero-text h2{
+  .hero-text h2 {
     font-weight: bold;
     font-size: 50px;
+  }
 
-}
-
-.hero-text h5{
+  .hero-text h5 {
     font-weight: light;
     font-size: 22px;
     font-family: 'raleway';
+  }
 
-}
-
-.detail-items {
+  .detail-items {
     margin-top: 20px;
     padding-bottom: 35px;
+  }
 
-}
-
-.details a {
+  .details a {
     font-family: 'nunito sans';
     font-size: 17px;
-}
+  }
 
-
-
-.hero-text{
+  .hero-text {
     font-family: 'nunito sans';
     width: 100%;
-   
-}
+  }
 
-.hero-text h5{
+  .hero-text h5 {
     font-weight: light;
     font-size: 20px;
     font-family: 'raleway';
     line-height: 28px;
-
-}
-    
-
+  }
 }
 /* 
 @media(min-width: 768px ){
@@ -183,16 +167,6 @@ html, body {
     
     }
 } */
-
-
-
-
-
-
-
-
-
-
 
 /* 
 footer {

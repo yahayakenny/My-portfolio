@@ -5,23 +5,22 @@ body {
 }
 
 .navbar {
-  color: white !important;
-  background-color: #1d1d1d;
+  color: black !important;
+  padding: 5px;
+  padding-left: 100px;
+  padding-left: 20px;
+  margin-bottom: 22px;
 }
 
 .navbar-brand {
-  color: white !important;
-  font-size: 15px !important;
-  font-family: 'Raleway';
-  font-weight: bolder;
-  padding-left: 80px;
+  color: whitesmoke !important;
+  font-size: 10px !important;
+  font-weight: bold;
 }
 
 .navbar li a {
   color: white !important;
-  font-size: 22px !important;
-  font-family: 'poppins';
-  font-weight: bold;
+  font-size: 18px !important;
 }
 
 .detail-items a {
@@ -35,24 +34,12 @@ body {
   justify-content: space-evenly;
 }
 
-.row-flex {
-  display: flex;
-  justify-content: space-between;
-}
 
 .project-text {
   width: 100%;
-  padding-top: 100px;
+  margin-bottom: 150px;
 }
 
-.project {
-  padding-bottom: 50px;
-  padding-left: 80px;
-}
-
-.neon {
-  padding-left: 130px;
-}
 
 .project-text h1 {
   font-family: 'poppins';
@@ -81,10 +68,6 @@ body {
   color: teal;
 }
 
-.dark {
-  background-color: black;
-  color: white;
-}
 
 .links {
   display: flex;

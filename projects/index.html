@@ -43,10 +43,10 @@
     <title>Portfolio site</title>
   </head>
 
-  <body class = "dark">
+  <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-md navbar-dark sticky-top">
+    <nav class="navbar navbar-expand-md navbar-dark sticky-top bg-dark">
       <div class="navbar-brand">
         <h2>{Kenny}</h2>
       </div>
@@ -61,101 +61,221 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" href="../index.html">Home</a>
+            <a class="nav-link active" href="/index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/tech/index.html">Tech Stack</a>
           </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="https://drive.google.com/file/d/1BarUCRwUZ3ovk0N6D4KJXhg4OkAmrCyd/view?usp=sharing"
+              >Resume</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="./index.html"
+              >Projects</a
+            >
+          </li>
         </ul>
       </div>
     </nav><br>
+    <!-- Navigation Ends -->
 
-    <section class="project dark">
-      <div>
-        <div class="row-flex container-fluid">
-          <div>
-            <div class="project-text" data-aos="fade-down" data-aos-duration="3000">
-              <h1>spOrtify</h1>
+    <!-- Med Health -->
+    <section class = "project-text">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 d-flex align-items-center">
+            <div data-aos="fade-down" data-aos-duration="3000">
+              <h1>Med Health</h1>
               <h5>
-                Find out more about your premier league teams, favourite players and latest news in the world of football   
+                This app is a Hospital Database Management system where patients can create an account, search for doctors and book appointments. Using Django's SMTP, doctors get an email notification each time a new appointment is booked. 
               </h5>
-              <h6>Built with React, Javascript, React Router,sportsDB API.</h6>
+              <h6> Built with HTML, CSS, Javascript, Bootstrap, POSTGRESQL, Python and Django.</h6>
               <div class = "links">
-                <a href = "https://github.com/yahayakenny/spOrtify"><i class="fab fa-github"></i></a>
-               <a
-              href="https://sportifyleague.netlify.app/"
+                <a href = "https://github.com/yahayakenny/Med_Health_Django"><i class="fab fa-github"></i></a>
+                <a
+              href="https://med-health-django.herokuapp.com/"
               ><i class="fas fa-link"></i
               ></a>
               </div> 
             </div>
           </div>
-          <div class="project-img text-center" data-aos="fade-left" data-aos-duration="1000">
-            <img src="../images/sportify.jpg" alt="" />
+          <div class="col-md-6" data-aos="fade-left" data-aos-duration="1000">
+            <img src="../images/med_health.png" alt="" style = "width: 100%"/>
           </div>
-        </div>
+        </div>  
       </div>
     </section>
+    <!-- Med Health Ends-->
 
-    <section class="project dark">
-      <div>
-        <div class="row-flex container-fluid">
-          <div>
-            <div class="project-text" data-aos="fade-down" data-aos-duration="3000">
-              <h1>News Room</h1>
+    <!-- Pharm Plus -->
+    <section class = "project-text">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 d-flex align-items-center">
+            <div data-aos="fade-down" data-aos-duration="3000">
+              <h1>Pharm Plus</h1>
+              <h5>
+               This App was originally built for a local pharmacy. It monitors the quantity of products in stock, generates an order summary and calculates total sales and balance received by customers for the month.
+              </h5>
+              <h6>Test this app - Username: "pharmacy", password: "1234"</h6>
+              <h6>Built with HTML, CSS, Bootstrap, POSTGRESQL, Python and Django.</h6>
+              <div class = "links">
+                <a href = "https://github.com/yahayakenny/Pharmacy-inventory-manager"><i class="fab fa-github"></i></a>
+                <a
+              href="https://pharm-plus.herokuapp.com/"
+              ><i class="fas fa-link"></i
+              ></a>
+              </div> 
+            </div> 
+          </div>
+          <div class="col-md-6">
+            <div class="project-img text-center" data-aos="fade-left" data-aos-duration="1000">
+              <img src="../images/pharm_plus.png" alt="" style = "width: 100%" />
+            </div>
+          </div>           
+        </div>    
+      </div>
+    </section>
+     <!-- Pharm Plus ends -->
+
+
+    <!-- Sportify -->
+    <section class = "project-text">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 d-flex align-items-center">
+            <div data-aos="fade-down" data-aos-duration="3000">
+              <h1>Sportify</h1>
+              <h5>
+                Find out more about your premier league teams, favourite players and latest news in the world of football   
+              </h5>
+              <h6>Built with React, Javascript, React Router, SportsDB API.</h6>
+              <div class = "links">
+                <a href = "https://github.com/yahayakenny/spOrtify"><i class="fab fa-github"></i></a>
+                <a
+              href="https://sportifyleague.netlify.app/"
+              ><i class="fas fa-link"></i
+              ></a>
+              </div> 
+            </div> 
+          </div>
+          <div class="col-md-6">
+            <div class="project-img text-center" data-aos="fade-left" data-aos-duration="1000">
+              <img src="../images/sportify.png" alt="" style = "width: 100%" />
+            </div>
+          </div>           
+        </div>    
+      </div>
+    </section>
+    <!-- Sportify Ends -->
+
+
+    <!-- Genesys Hub -->
+    <section class = "project-text">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 d-flex align-items-center">
+            <div data-aos="fade-down" data-aos-duration="3000">
+              <h1>Genesys Hub</h1>
+              <h5>
+                Multipage React website with rich colours. 
+              </h5>
+              <h6>Built with React, Javascript, React Router.</h6>
+              <div class = "links">
+                <a href = "https://github.com/yahayakenny/Genesys-tech-hub"><i class="fab fa-github"></i></a>
+                <a
+              href="https://genesys-hub.netlify.app/"
+              ><i class="fas fa-link"></i
+              ></a>
+              </div> 
+            </div> 
+          </div>
+          <div class="col-md-6">
+            <div class="project-img text-center" data-aos="fade-left" data-aos-duration="1000">
+              <img src="../images/genesys.png" alt="" style = "width: 100%" />
+            </div>
+          </div>           
+        </div>    
+      </div>
+    </section>
+    <!-- Genesys Hub Ends -->
+
+
+    <!-- News Room -->
+    <section class = "project-text">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 d-flex align-items-center">
+              <div data-aos="fade-down" data-aos-duration="3000">
+                <h1>News Room</h1>
               <h5>
                 Get the latest news, best sellers and trending information worldwide in real time as obtainable from the New York Times official website. 
               </h5>
               <h6>Built with React, Javascript, React Router, New York Times API.</h6>
-              <div class = "links">
+                <div class = "links">
                 <a href = "https://github.com/yahayakenny/React-News-Room"><i class="fab fa-github"></i></a>
                <a
               href="https://react-newsroom.netlify.app/"
               ><i class="fas fa-link"></i
               ></a>
               </div> 
+              </div> 
             </div>
-          </div>
-          <div class="project-img text-center" data-aos="fade-left" data-aos-duration="1000">
-            <img src="../images/newsroom.jpg" alt="" />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="project dark">
-      <div>
-        <div class="row-flex container-fluid">
-          <div>
-            <div class="project-text" data-aos="fade-right" data-aos-duration="3000">
-              <h1>Exchange Rate Converter</h1>
-              <h5>
-                This app retrieves information from the Exchange Rate API and
-                helps to convert between currencies real time
-              </h5>
-              <h6>Built with Javascript, React, Exchange Rate API.</h6>
-              <div class = "links">
-                <a href="https://github.com/yahayakenny/React-exchange-rate-converter"><i class="fab fa-github"></i></a>
-                <a
-                href="https://exchangerate-converter.netlify.app/"
-                ><i class="fas fa-link"></i></a>
+            <div class="col-md-6">
+              <div class="project-img text-center" data-aos="fade-left" data-aos-duration="1000">
+                <img src="../images/newsroom.png" alt="" style = "width: 100%" />
               </div>
-            </div>
-          </div>
-          <div class="project-img" data-aos="fade-left" data-aos-duration="1000">
-            <img src="../images/exchange-rate.jpg" alt="" />
-          </div>
+            </div>           
+          </div>    
         </div>
-      </div>
     </section>
+    <!-- News Room Ends-->
+
+    <!-- Exchange Rate Converter -->
+    <section class = "project-text">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 d-flex align-items-center" >
+              <div data-aos="fade-down" data-aos-duration="3000">
+                <h1>Exchange Rate Converter</h1>
+                <h5>
+                  This app retrieves information from the Exchange Rate API and
+                  helps to convert between currencies real time
+                </h5>
+                <h6>Built with Javascript, React, Exchange Rate API.</h6>
+                <div class = "links">
+                  <a href="https://github.com/yahayakenny/React-exchange-rate-converter"><i class="fab fa-github"></i></a>
+                  <a
+                  href="https://exchangerate-converter.netlify.app/"
+                  ><i class="fas fa-link"></i></a>
+                </div>
+              </div> 
+            </div>  
+            <div class="col-md-6 d-flex align-items-center">
+              <div class="project-img text-center" data-aos="fade-left" data-aos-duration="1000">
+                <img src="../images/exchange.png" alt="" style = "width: 80%" />
+              </div>
+            </div>         
+          </div>    
+        </div>
+    </section>
+    <!-- Exchange Rate Converter Ends -->
 
 
-    <section class="dark">
-      <div class="container container-fluid">
+   <!-- Electrolyte-calculator Starts -->
+    <section class = "project-text">
+      <div class="container">
         <div class="row">
-          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-            <div class="project-text">
+          <div class="col-md-6 d-flex align-items-center">
+            <div data-aos="fade-down" data-aos-duration="3000">
               <h1>Electrolyte Correction Calculator</h1>
-              <h5>In Medicine, calculating sodium and potassium deficits manually can be a really gruesome task. This Calculator helps automate this challenge and calculates maintenance, deficit and total requirement for Sodium and Potassium Correction.             
+              <h5>In Medicine, calculating sodium and potassium deficits manually can be a really gruesome task. This calculator helps automate this challenge and calculates maintenance, deficit and total requirement for Sodium and Potassium correction.             
               </h5>
               <h6>Built with HTML, CSS, Materialize CSS, Javascript.</h6>
               <div class = "links">
@@ -164,76 +284,18 @@
                 href="https://electrolyte-calculator.netlify.app/"
                 ><i class="fas fa-link"></i></a>
               </div>
-            </div>
-          </div>
-          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-            <div class="project-img">
-              <img src="../images/electrolytes.jpg" alt="" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="dark">
-      <div class="container-fluid container">
-        <div class="row">
-          <div class="col-md-6 col-sm-12 col-xs-12">
-            <div class="project-text " data-aos="fade-right" data-aos-duration="3000">
-              <h1>Neon Photography</h1>
-              <h5>
-                Neon Photography is a fully responsive single page
-                portfolio website with rich colours and beautiful animations.
-              </h5>
-              <h6>Built with React,Javascript, React-animate on scroll, React Bootstrap</h6>
-              <div class = "links">
-                <a href="https://github.com/yahayakenny/React-Neon-photography-"
-                ><i class="fab fa-github"></i
-              ></a>
-              <a
-                href="https://neon-photography.netlify.app/"
-                ><i class="fas fa-link"></i></a>
-              </div>
             </div> 
           </div>
-          <div class="col-md-6 col-sm-12 col-xs-12">
-            <div class="project-img" data-aos="fade-left" data-aos-duration="1000">
-              <img src="../images/neon.jpg" alt="" />
+          <div class="col-md-6">
+            <div class="project-img text-center" data-aos="fade-left" data-aos-duration="1000">
+              <img src="../images/electrolyte.png" alt="" style = "width: 80%" />
             </div>
-          </div>
-        </div>
+          </div>           
+        </div>    
       </div>
     </section>
+    <!-- Electrolyte-calculator Ends -->
 
-    <section class = "dark">
-      <div class="container container-fluid">
-        <div class="row">
-          <div class = "col-md-6 col-xs-12">
-            <div class="project-text" data-aos="fade-right" data-aos-duration="3000">
-              <h1>Music Artiste Portfolio</h1>
-              <h5>
-                Single Landing page portfolio for a music artiste.   
-              </h5>
-              <h6>Built with HTML, CSS, Bootstrap, Javascript, Animate on scroll.</h6>
-              <div class = "links">
-                <a
-                href="https://github.com/yahayakenny/music-portfolio"
-                ><i class="fab fa-github"></i
-              ></a>
-              <a
-                href="https://music-artiste-portfolio.netlify.app/"
-                ><i class="fas fa-link"></i></a>
-              </div>
-            </div>     
-          </div> 
-          <div class = "col-md-6 col-xs-12">
-            <div class="project-img text-center" data-aos="fade-left" data-aos-duration="1000"> 
-              <img src="../images/music.jpg" alt="" />
-            </div>
-          </div> 
-        </div>
-      </div>
-    </section>
 
     <section class="detail-items padding">
       <div class="details">

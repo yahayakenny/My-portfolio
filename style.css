@@ -4,28 +4,26 @@ body {
   overflow-x: hidden;
   height: 100%;
   width: 100%;
-  background-color: #1d1d1d;
-  color: white;
+  color: black;
 }
 
 .navbar {
-  color: white !important;
-  padding: 15px 20px;
-  background-color: #1d1d1d !important;
+  color: black !important;
+  padding: 5px;
+  padding-left: 100px;
+  padding-left: 20px;
+  margin-bottom: 22px;
 }
 
 .navbar-brand {
   color: whitesmoke !important;
-  font-size: 20px !important;
-  font-family: 'raleway';
-  font-weight: bolder;
+  font-size: 10px !important;
+  font-weight: bold;
 }
 
 .navbar li a {
   color: white !important;
-  font-size: 22px !important;
-  font-family: 'raleway';
-  font-weight: bold;
+  font-size: 18px !important;
 }
 
 .hero-img img {
@@ -47,13 +45,13 @@ body {
 }
 
 .hero-text h1 {
-  font-weight: bolder;
-  font-size: 60px;
+  font-weight: bold;
+  font-size: 30px;
 }
 
 .hero-text h2 {
   font-weight: bold;
-  font-size: 80px;
+  font-size: 100px;
   color: #077c7d;
 }
 
@@ -61,11 +59,11 @@ body {
   font-weight: light;
   font-size: 23px;
   font-family: 'raleway';
-  line-height: 40px;
+  line-height: 30px;
 }
 
 .detail-items {
-  margin-top: 100px;
+  margin-top: 70px;
 }
 
 .details {
@@ -81,8 +79,8 @@ body {
   font-size: 22px;
 }
 
-.btn-info {
-  margin-right: 20px;
+.btn-secondary {
+  margin-right: 30px;
 }
 @media (max-width: 767px) {
   .row-flex {
